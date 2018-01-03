@@ -40,7 +40,6 @@ public class TeacherAdapter extends ArrayAdapter<Teacher> {
         oneTeacherView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 这里进行跳转
                 //初始化一个准备跳转到TeacherDetailActivity的Intent
                 Intent integer = new Intent(getContext(),TeacherDetailActivity.class);
                 //往Intent中传入Teacher相关的数据，供TeacherDetailActivity使用
